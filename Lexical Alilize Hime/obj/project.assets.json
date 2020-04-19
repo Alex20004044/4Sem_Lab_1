@@ -1,0 +1,163 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETFramework,Version=v4.6.1": {
+      "Hime.Redist/3.4.0": {
+        "type": "package",
+        "compile": {
+          "lib/net20/Hime.Redist.dll": {}
+        },
+        "runtime": {
+          "lib/net20/Hime.Redist.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Hime.Redist/3.4.0": {
+      "sha512": "eopObcjezpJ73girq3dgtzmae4xNtNSvBmJmydhp6UzIdg1YeAfnbxa1zwYSqODPIQvXUHxoruy4QOawodMU8Q==",
+      "type": "package",
+      "path": "hime.redist/3.4.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "hime.redist.3.4.0.nupkg.sha512",
+        "hime.redist.nuspec",
+        "lib/net20/Hime.Redist.dll",
+        "lib/net20/Hime.Redist.pdb",
+        "lib/net20/Hime.Redist.xml",
+        "lib/netstandard1.0/Hime.Redist.dll",
+        "lib/netstandard1.0/Hime.Redist.pdb",
+        "lib/netstandard1.0/Hime.Redist.xml",
+        "lib/netstandard2.0/Hime.Redist.dll",
+        "lib/netstandard2.0/Hime.Redist.pdb",
+        "lib/netstandard2.0/Hime.Redist.xml",
+        "src/runtime-net/Hime.Redist.csproj",
+        "src/runtime-net/Sources/AST.cs",
+        "src/runtime-net/Sources/ASTFamily.cs",
+        "src/runtime-net/Sources/ASTLabel.cs",
+        "src/runtime-net/Sources/ASTNode.cs",
+        "src/runtime-net/Sources/IncorrectEncodingSequence.cs",
+        "src/runtime-net/Sources/Lexer/Automaton.cs",
+        "src/runtime-net/Sources/Lexer/AutomatonState.cs",
+        "src/runtime-net/Sources/Lexer/AutomatonTransition.cs",
+        "src/runtime-net/Sources/Lexer/BaseLexer.cs",
+        "src/runtime-net/Sources/Lexer/BaseText.cs",
+        "src/runtime-net/Sources/Lexer/ContextFreeLexer.cs",
+        "src/runtime-net/Sources/Lexer/ContextSensitiveLexer.cs",
+        "src/runtime-net/Sources/Lexer/FuzzyMatcher.cs",
+        "src/runtime-net/Sources/Lexer/IContextProvider.cs",
+        "src/runtime-net/Sources/Lexer/MatchedTerminal.cs",
+        "src/runtime-net/Sources/Lexer/PrefetchedText.cs",
+        "src/runtime-net/Sources/Lexer/StreamingText.cs",
+        "src/runtime-net/Sources/Lexer/TokenKernel.cs",
+        "src/runtime-net/Sources/Lexer/TokenMatch.cs",
+        "src/runtime-net/Sources/ParseError.cs",
+        "src/runtime-net/Sources/ParseErrorType.cs",
+        "src/runtime-net/Sources/ParseResult.cs",
+        "src/runtime-net/Sources/Parsers/BaseLRParser.cs",
+        "src/runtime-net/Sources/Parsers/ColumnMap.cs",
+        "src/runtime-net/Sources/Parsers/GSS.cs",
+        "src/runtime-net/Sources/Parsers/GSSEdge.cs",
+        "src/runtime-net/Sources/Parsers/GSSGeneration.cs",
+        "src/runtime-net/Sources/Parsers/GSSPath.cs",
+        "src/runtime-net/Sources/Parsers/LRAction.cs",
+        "src/runtime-net/Sources/Parsers/LRActionCode.cs",
+        "src/runtime-net/Sources/Parsers/LRContexts.cs",
+        "src/runtime-net/Sources/Parsers/LRExpected.cs",
+        "src/runtime-net/Sources/Parsers/LROpCode.cs",
+        "src/runtime-net/Sources/Parsers/LROpCodeBase.cs",
+        "src/runtime-net/Sources/Parsers/LROpCodeValues.cs",
+        "src/runtime-net/Sources/Parsers/LRProduction.cs",
+        "src/runtime-net/Sources/Parsers/LRkASTBuilder.cs",
+        "src/runtime-net/Sources/Parsers/LRkAutomaton.cs",
+        "src/runtime-net/Sources/Parsers/LRkParser.cs",
+        "src/runtime-net/Sources/Parsers/RNGLRAutomaton.cs",
+        "src/runtime-net/Sources/Parsers/RNGLRParser.cs",
+        "src/runtime-net/Sources/Parsers/SPPF.cs",
+        "src/runtime-net/Sources/Parsers/SPPFBuilder.cs",
+        "src/runtime-net/Sources/Parsers/SPPFNode.cs",
+        "src/runtime-net/Sources/Parsers/SPPFNodeNormal.cs",
+        "src/runtime-net/Sources/Parsers/SPPFNodeRef.cs",
+        "src/runtime-net/Sources/Parsers/SPPFNodeReplaceable.cs",
+        "src/runtime-net/Sources/Parsers/SPPFNodeVersion.cs",
+        "src/runtime-net/Sources/Parsers/SubTree.cs",
+        "src/runtime-net/Sources/Parsers/SubTreeFactory.cs",
+        "src/runtime-net/Sources/SemanticAction.cs",
+        "src/runtime-net/Sources/SemanticBody.cs",
+        "src/runtime-net/Sources/SemanticElement.cs",
+        "src/runtime-net/Sources/Symbol.cs",
+        "src/runtime-net/Sources/SymbolType.cs",
+        "src/runtime-net/Sources/TableElemRef.cs",
+        "src/runtime-net/Sources/TableType.cs",
+        "src/runtime-net/Sources/Text.cs",
+        "src/runtime-net/Sources/TextContext.cs",
+        "src/runtime-net/Sources/TextPosition.cs",
+        "src/runtime-net/Sources/TextSpan.cs",
+        "src/runtime-net/Sources/Token.cs",
+        "src/runtime-net/Sources/TokenRepository.cs",
+        "src/runtime-net/Sources/TreeAction.cs",
+        "src/runtime-net/Sources/UnexpectedCharError.cs",
+        "src/runtime-net/Sources/UnexpectedEndOfInput.cs",
+        "src/runtime-net/Sources/UnexpectedTokenError.cs",
+        "src/runtime-net/Sources/Utils/BigList.cs",
+        "src/runtime-net/Sources/Utils/Buffer.cs",
+        "src/runtime-net/Sources/Utils/Factory.cs",
+        "src/runtime-net/Sources/Utils/Pool.cs",
+        "src/runtime-net/Sources/Utils/ROList.cs"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETFramework,Version=v4.6.1": [
+      "Hime.Redist >= 3.4.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Alex\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "D:\\Hime\\Test\\test.csproj",
+      "projectName": "TestHime",
+      "projectPath": "D:\\Hime\\Test\\test.csproj",
+      "packagesPath": "C:\\Users\\Alex\\.nuget\\packages\\",
+      "outputPath": "D:\\Hime\\Test\\obj\\",
+      "projectStyle": "PackageReference",
+      "crossTargeting": true,
+      "configFilePaths": [
+        "C:\\Users\\Alex\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net461"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net461": {
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net461": {
+        "dependencies": {
+          "Hime.Redist": {
+            "target": "Package",
+            "version": "[3.4.0, )"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

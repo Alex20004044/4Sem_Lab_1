@@ -1,0 +1,2 @@
+D:\Hime\Test\obj\Release\net461\test.AssemblyInfoInputs.cache
+D:\Hime\Test\obj\Release\net461\test.AssemblyInfo.cs

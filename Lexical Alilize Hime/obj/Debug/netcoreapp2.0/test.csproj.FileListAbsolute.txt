@@ -1,0 +1,8 @@
+D:\Hime\Test\bin\Debug\netcoreapp2.0\TestHime.deps.json
+D:\Hime\Test\bin\Debug\netcoreapp2.0\TestHime.dll
+D:\Hime\Test\bin\Debug\netcoreapp2.0\TestHime.pdb
+D:\Hime\Test\obj\Debug\netcoreapp2.0\test.csprojAssemblyReference.cache
+D:\Hime\Test\obj\Debug\netcoreapp2.0\test.AssemblyInfoInputs.cache
+D:\Hime\Test\obj\Debug\netcoreapp2.0\test.AssemblyInfo.cs
+D:\Hime\Test\obj\Debug\netcoreapp2.0\TestHime.dll
+D:\Hime\Test\obj\Debug\netcoreapp2.0\TestHime.pdb

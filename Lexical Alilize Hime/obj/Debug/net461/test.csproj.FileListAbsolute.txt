@@ -1,0 +1,9 @@
+D:\Hime\test\bin\Debug\net461\TestHime.pdb
+D:\Hime\test\bin\Debug\net461\Hime.Redist.dll
+D:\Hime\test\obj\Debug\net461\test.AssemblyInfoInputs.cache
+D:\Hime\test\obj\Debug\net461\test.AssemblyInfo.cs
+D:\Hime\test\obj\Debug\net461\test.csproj.CopyComplete
+D:\Hime\test\obj\Debug\net461\TestHime.pdb
+D:\Hime\Test\bin\Debug\net461\TestHime.dll
+D:\Hime\Test\obj\Debug\net461\TestHime.dll
+D:\Hime\Test\obj\Debug\net461\test.csprojAssemblyReference.cache

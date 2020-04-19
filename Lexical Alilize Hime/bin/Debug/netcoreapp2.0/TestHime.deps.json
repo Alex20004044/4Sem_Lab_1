@@ -1,0 +1,41 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v2.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v2.0": {
+      "TestHime/1.0.0": {
+        "dependencies": {
+          "Hime.Redist": "3.4.0"
+        },
+        "runtime": {
+          "TestHime.dll": {}
+        }
+      },
+      "Hime.Redist/3.4.0": {
+        "runtime": {
+          "lib/netstandard2.0/Hime.Redist.dll": {
+            "assemblyVersion": "3.4.0.0",
+            "fileVersion": "3.4.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "TestHime/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Hime.Redist/3.4.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-eopObcjezpJ73girq3dgtzmae4xNtNSvBmJmydhp6UzIdg1YeAfnbxa1zwYSqODPIQvXUHxoruy4QOawodMU8Q==",
+      "path": "hime.redist/3.4.0",
+      "hashPath": "hime.redist.3.4.0.nupkg.sha512"
+    }
+  }
+}

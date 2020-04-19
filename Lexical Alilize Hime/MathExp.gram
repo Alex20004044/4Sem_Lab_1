@@ -1,0 +1,23 @@
+grammar MathExp
+{
+  options
+  {
+    Axiom = "exp"; // the top variable for this grammar
+    Separator = "SEPARATOR"; // the terminal that represent white space
+  }
+  terminals
+  {
+  	TRASH 		-> [^a-zA-Z_'.']+ ;
+    WHITE_SPACE -> U+0020 | U+0009 | U+000B | U+000C ;
+    SEPARATOR   -> WHITE_SPACE+;
+	
+	SUBGOAL		-> [a-zA-Z_'.'] ([a-zA-Z_'.'] | [0-9])* ;
+	GOAL		-> [a-zA-Z_'.'] ([a-zA-Z_'.'] | [0-9])* ':';
+  }
+  rules
+  {
+    exp_atom   -> GOAL;
+
+    exp        -> exp_atom;
+  }
+}
