@@ -1,0 +1,10 @@
+D:\VSProjects\4Sem_1\bin\Debug\4Sem_1.exe.config
+D:\VSProjects\4Sem_1\bin\Debug\4Sem_1.exe
+D:\VSProjects\4Sem_1\bin\Debug\4Sem_1.pdb
+D:\VSProjects\4Sem_1\obj\Debug\4Sem_1.exe
+D:\VSProjects\4Sem_1\obj\Debug\4Sem_1.pdb
+D:\VSProjects\4Sem_1\bin\Debug\TestHime.pdb
+D:\VSProjects\4Sem_1\obj\Debug\4Sem_1.csprojAssemblyReference.cache
+D:\VSProjects\4Sem_1\obj\Debug\4Sem_1.csproj.CopyComplete
+D:\VSProjects\4Sem_1\bin\Debug\Hime.Redist.dll
+D:\VSProjects\4Sem_1\bin\Debug\TestHime.dll

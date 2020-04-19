@@ -1,0 +1,48 @@
+%class Detector
+
+%start MainMap::Start
+
+%map MainMap
+%%
+Start {	
+	AlfaInput Goal {}
+}
+Goal 
+	Entry { IncCurrentIndex();}
+{
+	AlfaInput Goal  {}
+	DigitInput Goal {}
+	SeparatorCharInput GoalSeparator { SaveEndIndex();}	
+}
+GoalSeparator
+	Entry { IncCurrentIndex();} 
+{
+	AlfaInput Subgoal  {SaveStartIndex();}
+	SpaceInput GoalSeparator {}
+	EndStringInput Recieve{}
+}
+Subgoal
+	Entry { IncCurrentIndex();}  
+{
+	AlfaInput Subgoal  {}
+	DigitInput Subgoal {}
+	SpaceInput Space {SaveEndIndex();}
+	EndStringInput Recieve{SaveEndIndex();}	
+}
+Space 
+	Entry { IncCurrentIndex();} 
+{
+	AlfaInput Subgoal  {SaveStartIndex();}
+	SpaceInput Space {}
+	EndStringInput Recieve{}
+}
+Recieve {
+}
+Error {
+}
+Default
+{
+	DefaultInput Error {}
+	Default Error {}
+}
+%%
